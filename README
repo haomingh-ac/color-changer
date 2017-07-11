@@ -1,0 +1,22 @@
+## Building the module
+
+```npm run build```
+
+## Installing this module in your app
+
+If you build the module and push it to an npm registry, you could install it in your app with `npm install --save color-changer`. However, since it is not published to a registry, the easy option is to build the module as shown above, then link to the local module:
+
+```cd color-changer
+npm link
+cd ../your-app
+npm link color-changer```
+
+## Usage
+
+In your code, add the following:
+
+```import colorChanger from 'color-changer'
+
+colorChanger()```
+
+Your app's background color should change randomly without repetition once per second for 10 seconds.

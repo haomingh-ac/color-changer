@@ -1,0 +1,20 @@
+{
+  "name": "color-changer",
+  "version": "1.0.0",
+  "description": "Sets a random background color every 1s for 10s without repeating.",
+  "main": "public/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "rxjs": "^5.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "webpack": "^3.1.0"
+  }
+}
